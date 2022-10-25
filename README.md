@@ -22,7 +22,7 @@ php artisan storage:link
 
 Что я дополнительно сделал
 
-1) Внёс изменения в файле config/app.php смотрите строки 168 & 232
+1) Внёс изменения в файле config/app.php смотрите строки 168 & 232 или смотрите изменения в коммите (https://github.com/livevasiliy/ffmpeg-laravel-example-app/commit/58ff60e83293dfb61619bf228f67186aa97ad3c0)
 2) Опубликовал файл конфигурации из пакета с помощью команды 
 ```bash 
 php artisan vendor:publish --provider="ProtoneMedia\LaravelFFMpeg\Support\ServiceProvider"
