@@ -10,6 +10,16 @@ sudo apt install ffmpeg
 ### Windows / Mac
 Следуйте инструкциям на оф.сайте https://ffmpeg.org/download.html
 
+Установка всех пакетов 
+```bash
+composer install
+```
+
+Создайте ссылку для папки public со storage
+```bash
+php artisan storage:link
+```
+
 
 ## Использование
 
