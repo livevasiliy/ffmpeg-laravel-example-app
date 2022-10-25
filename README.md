@@ -20,6 +20,13 @@ composer install
 php artisan storage:link
 ```
 
+Что я дополнительно сделал
+
+1) Внёс изменения в файле config/app.php смотрите строки 168 & 232
+2) Опубликовал файл конфигурации из пакета с помощью команды 
+```bash 
+php artisan vendor:publish --provider="ProtoneMedia\LaravelFFMpeg\Support\ServiceProvider"
+```
 
 ## Использование
 
